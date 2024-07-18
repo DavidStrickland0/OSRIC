@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Characters\OSRIC.DotNetCore.Characters.Base\OSRIC.DotNetCore.Characters.Base.csproj" />
+    <ProjectReference Include="..\Maps\Base\OSRIC.DotNetCore.Maps.Base.csproj" />
+  </ItemGroup>
+
+</Project>
